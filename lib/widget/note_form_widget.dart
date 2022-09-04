@@ -47,7 +47,7 @@ class NoteFormWidget extends StatelessWidget {
                 ],
               ),*/
               buildTitle(),
-              SizedBox(height: 8),
+              SizedBox(height: 10),
               buildDescription(),
               SizedBox(height: 16),
             ],
@@ -66,6 +66,7 @@ class NoteFormWidget extends StatelessWidget {
         decoration: InputDecoration(
           border: InputBorder.none,
           hintText: 'Title',
+          
           hintStyle: TextStyle(color: Colors.white70),
         ),
         validator: (title) =>
